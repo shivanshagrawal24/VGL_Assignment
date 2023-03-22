@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    letter-spacing:2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:100%;
+}
+
+#logo-header{
+    width : 80%;
+    padding: 2em 0;
+}
+
+#logo-header .award-winning{
+    border-left: 2px solid #dac0a9;
+}
+
+#logo-header img{
+    width:80%;
+}
+
+#logo-header h3, .product-info h2{
+    color: #b19969;
+    font-weight: 700;
+}
+
+#logo-header h4{
+    color: #b09766;
+    font-weight: 550;
+}
+
+#logo-header h5{
+    color: grey;
+}
+
+#logo-images{
+    width : 90%;
+    border: 1px solid #dac0a9;
+    background-color: white;
+}
+
+#logo-images div{
+    padding: 0px !important;
+}
+
+#logo-images .img1{
+    padding-right: 5px !important;
+}
+
+#logo-images .img2{
+    padding-left: 5px !important;
+}
+
+#logo-images img{
+    height: 450px;
+}
+
+#about-opatra{
+    width:70%;
+}
+#top-container{
+    position: relative;
+    z-index: 100;
+}
+
+#middle-container{
+    position: absolute;
+    top: 400px;
+    z-index: 10;
+}
+#awards{
+    padding-top: 500px;
+    background-color: #eceff5;
+    width: 96%;
+}
+#award-images, #product-cards{
+    width:97%;
+}
+
+.heading span{
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #b09766;
+}
+
+.award-image{
+    border: 2px solid lightgray;
+}
+
+.product-card {
+    border:none;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+}
+.product-card img{
+    height: 350px;
+    width: 100%;
+}
+.product-card .product-info{
+    background-color: white;
+    padding: 1.5em;
+    width:80%;
+}
+.product-info h5{
+    font-weight: 500;
+    color: grey;
+    font-size: 0.9em;
+}
+
+@media (max-width:767px) {
+
+     
+    #logo-header .award-winning
+    {
+        padding-top: 1.5em;
+        border:0px solid !important
+    }
+
+    #logo-images{
+        border:0px solid !important;
+    }
+
+    #logo-images .img1{
+        padding-right: 0px !important;
+    }
+
+    #top-container{
+        position: relative;
+        z-index: 100;
+    }
+    
+    #middle-container{
+        position: relative;
+        top: 0px;
+        z-index: 10;
+    }
+
+    #about-opatra{
+        width:90%;
+    }
+    #awards{
+        width: 100%;
+        padding-top: 30px;
+    }
+    #award-images , #product-cards{
+        width: 100%;
+    }
+        
+    .product-card .product-info{
+        padding: 1em;
+        font-size: 0.7em;
+        width:90%;
+    }
+    
+}
